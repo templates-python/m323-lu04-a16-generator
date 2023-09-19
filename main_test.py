@@ -1,6 +1,5 @@
-import main
+from main import even_numbers_generator
 
-def test(capsys):
-    main.calculate()
-    captured = capsys.readouterr()
-    assert captured.out == "Total: 78.75\n"
+def test_even_numbers_generator():
+    even_numbers = list(even_numbers_generator(15))
+    assert even_numbers == [2, 4, 6, 8, 10, 12, 14]
