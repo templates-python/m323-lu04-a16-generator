@@ -7,8 +7,8 @@ def even_numbers_generator(m):
     :param m: Der maximale Wert, bis zu dem gerade Zahlen generiert werden sollen.
     :return: Ein Generator für gerade Zahlen.
     """
-    # TODO: Implementieren Sie den Generator für gerade Zahlen
-    pass
+    for num in range(2, m + 1, 2):
+        yield num
 
 
 if __name__ == '__main__':
