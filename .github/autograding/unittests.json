@@ -1,0 +1,8 @@
+[
+  {
+    "name": "test_even_numbers_generator",
+    "function": "test_even_numbers_generator",
+    "timeout": 10,
+    "points": 1
+  }
+]
