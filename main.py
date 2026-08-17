@@ -1,3 +1,8 @@
+"""Generator für gerade Zahlen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/generator2
+"""
+
 def even_numbers_generator(m):
     """
     Generiert alle geraden Zahlen bis zum Wert m.
